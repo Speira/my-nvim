@@ -47,3 +47,9 @@ keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sl", "<C-w>l")
 -- Diagnostic
 keymap.set("n", "<Leader>j", "<cmd>lua vim.diagnostic.goto_next()<CR>")
+--
+-- LSP navigation mappings
+keymap.set("n", "gd", vim.lsp.buf.definition, opts)
+keymap.set("n", "gr", vim.lsp.buf.references, opts)
+keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
+keymap.set("n", "gy", vim.lsp.buf.type_definition, opts)

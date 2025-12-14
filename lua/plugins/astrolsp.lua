@@ -18,5 +18,13 @@ return {
         client.server_capabilities.documentFormattingProvider = false
       end
     end,
+    mappings = {
+      n = {
+        gd = false,
+        gr = false,
+        gi = false,
+        gy = false,
+      },
+    },
   },
 }

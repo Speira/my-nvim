@@ -10,6 +10,8 @@ return {
       disabled = {
         "tsserver",
         "typescript-tools",
+        "jsonls",
+        "dprint",
       },
     },
 

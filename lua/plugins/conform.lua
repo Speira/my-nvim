@@ -17,10 +17,10 @@ return {
       end
     end,
     formatters_by_ft = {
-      javascript = { "eslint_d", "prettier" },
-      javascriptreact = { "eslint_d", "prettier" },
-      typescript = { "eslint_d", "prettier" },
-      typescriptreact = { "eslint_d", "prettier" },
+      javascript = { "eslint_d" },
+      javascriptreact = { "eslint_d" },
+      typescript = { "eslint_d" },
+      typescriptreact = { "eslint_d" },
       json = { "prettier" },
       jsonc = { "prettier" },
       markdown = { "prettier" },

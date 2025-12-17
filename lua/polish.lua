@@ -53,3 +53,6 @@ keymap.set("n", "gd", vim.lsp.buf.definition, opts)
 keymap.set("n", "gr", vim.lsp.buf.references, opts)
 keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
 keymap.set("n", "gy", vim.lsp.buf.type_definition, opts)
+
+
+vim.opt.signcolumn = "yes:1"

@@ -10,7 +10,7 @@ return {
         "debugpy",
         "tree-sitter-cli",
         "json-lsp",
-        "prettier",
+        "prettierd",
         "eslint_d",
       },
     },
